@@ -2,7 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
-## 0.0.1 (2024-12-06)
+## [0.0.2](https://github.com/fxss5201/expand-element/compare/v0.0.1...v0.0.2) (2024-12-06)
+
+
+### Features
+
+* add getElementMargin ([3f9af37](https://github.com/fxss5201/expand-element/commit/3f9af3739b9090761fe7cdcc38889fa2091da87b))
+
+## [0.0.1](https://github.com/fxss5201/expand-element/compare/932e94508583978ebdf43bddd1510faaa7feb927...v0.0.1) (2024-12-06)
 
 
 ### Features
