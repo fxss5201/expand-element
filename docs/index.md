@@ -16,7 +16,10 @@ hero:
 
 features:
   - title: layout
-    details: getElementLayout
+    details: getElementPadding / getElementMargin
     link: /api/globals.html#layout
+  - title: scroll
+    details: getScrollbarWidth
+    link: /api/globals.html#scroll
 ---
 

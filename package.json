@@ -4,7 +4,11 @@
   "license": "MIT",
   "version": "0.0.2",
   "type": "module",
-  "keywords": [],
+  "keywords": [
+    "getElementPadding",
+    "getElementMargin",
+    "getScrollbarWidth"
+  ],
   "description": "Expand element",
   "author": "fxss5201",
   "repository": {
