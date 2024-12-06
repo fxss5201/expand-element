@@ -33,7 +33,7 @@ function getElementMargin(el: HTMLElement): {
 
 `HTMLElement`
 
-要获取外边距的元素
+要获取外边距的元素。
 
 ## Returns
 
@@ -74,4 +74,4 @@ top: number;
 
 ## Defined in
 
-[getElementLayout.ts:61](https://github.com/fxss5201/expand-element/blob/main/lib/layout/getElementLayout.ts#L61)
+[layout/getElementLayout.ts:61](https://github.com/fxss5201/expand-element/blob/main/lib/layout/getElementLayout.ts#L61)

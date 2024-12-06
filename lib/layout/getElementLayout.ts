@@ -17,7 +17,7 @@
  * 
  * @group layout
  *
- * @param el 要获取内边距的元素
+ * @param el 要获取内边距的元素。
  * @returns 包含元素四个方向内边距的对象，包含 `left`, `right`, `top`, `bottom` 属性，值为像素值。
  * 
  */
@@ -54,7 +54,7 @@ export function getElementPadding (el: HTMLElement) {
  * 
  * @group layout
  *
- * @param el 要获取外边距的元素
+ * @param el 要获取外边距的元素。
  * @returns 包含元素四个方向外边距的对象，包含 `left`, `right`, `top`, `bottom` 属性，值为像素值。
  * 
  */

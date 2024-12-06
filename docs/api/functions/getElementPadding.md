@@ -33,7 +33,7 @@ function getElementPadding(el: HTMLElement): {
 
 `HTMLElement`
 
-要获取内边距的元素
+要获取内边距的元素。
 
 ## Returns
 
@@ -74,4 +74,4 @@ top: number;
 
 ## Defined in
 
-[getElementLayout.ts:24](https://github.com/fxss5201/expand-element/blob/main/lib/layout/getElementLayout.ts#L24)
+[layout/getElementLayout.ts:24](https://github.com/fxss5201/expand-element/blob/main/lib/layout/getElementLayout.ts#L24)
