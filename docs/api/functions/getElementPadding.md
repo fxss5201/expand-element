@@ -71,4 +71,4 @@ top: number = paddingTop;
 
 ## Defined in
 
-getElementLayout.ts:21
+[getElementLayout.ts:21](https://github.com/fxss5201/expand-element/blob/main/lib/layout/getElementLayout.ts#L21)
