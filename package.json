@@ -1,0 +1,59 @@
+{
+  "name": "expand-element",
+  "private": false,
+  "license": "MIT",
+  "version": "0.0.0",
+  "type": "module",
+  "keywords": [],
+  "description": "Expand element",
+  "author": "fxss5201",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fxss5201/expand-element.git"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "main": "./dist/expand-element.umd.cjs",
+  "module": "./dist/expand-element.js",
+  "types": "./types/main.d.ts",
+  "exports": {
+    "types": "./types/main.d.ts",
+    "import": "./dist/expand-element.js",
+    "require": "./dist/expand-element.umd.cjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "predocs": "typedoc",
+    "docs:dev": "typedoc --sourceLinkTemplate https://github.com/fxss5201/expand-element/blob/main/{path}#L{line} && vitepress dev docs",
+    "docs:build": "typedoc --sourceLinkTemplate https://github.com/fxss5201/expand-element/blob/main/{path}#L{line} && vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "release": "commit-and-tag-version",
+    "cz": "czg"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
+  "commit-and-tag-version": {
+    "releaseCount": 0
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "commit-and-tag-version": "^12.5.0",
+    "cz-git": "^1.11.0",
+    "czg": "^1.11.0",
+    "typedoc": "^0.27.3",
+    "typedoc-plugin-markdown": "^4.3.1",
+    "typedoc-vitepress-theme": "^1.1.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.1",
+    "vite-plugin-dts": "^4.3.0",
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.13",
+    "vue-tsc": "^2.1.10"
+  }
+}
