@@ -4,9 +4,21 @@
 
 ## 安装
 
-```bash
+::: code-group
+
+```bash [npm]
 npm install expand-element
 ```
+
+```bash [yarn]
+yarn add expand-element
+```
+
+```bash [pnpm]
+pnpm add expand-element
+```
+
+:::
 
 ## 使用
 

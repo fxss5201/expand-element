@@ -51,25 +51,25 @@ function getElementPadding(el: HTMLElement): {
 ### bottom
 
 ```ts
-bottom: number = paddingBottom;
+bottom: number;
 ```
 
 ### left
 
 ```ts
-left: number = paddingLeft;
+left: number;
 ```
 
 ### right
 
 ```ts
-right: number = paddingRight;
+right: number;
 ```
 
 ### top
 
 ```ts
-top: number = paddingTop;
+top: number;
 ```
 
 ## Defined in
