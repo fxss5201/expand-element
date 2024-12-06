@@ -21,8 +21,11 @@ function getElementPadding(el: HTMLElement): {
 
 ## example
 
-<<< ./../../.vitepress/components/layout/GetElementPadding.vue
 <GetElementPadding></GetElementPadding>
+
+::: details
+<<< ./../../.vitepress/components/layout/GetElementPadding.vue
+:::
 
 ## Parameters
 
@@ -71,4 +74,4 @@ top: number = paddingTop;
 
 ## Defined in
 
-[getElementLayout.ts:21](https://github.com/fxss5201/expand-element/blob/main/lib/layout/getElementLayout.ts#L21)
+[getElementLayout.ts:24](https://github.com/fxss5201/expand-element/blob/main/lib/layout/getElementLayout.ts#L24)

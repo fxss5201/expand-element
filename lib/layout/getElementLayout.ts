@@ -9,8 +9,11 @@
  * 
  * ## example
  * 
- * <<< ./../../.vitepress/components/layout/GetElementPadding.vue
  * <GetElementPadding></GetElementPadding>
+ * 
+ * ::: details
+ * <<< ./../../.vitepress/components/layout/GetElementPadding.vue
+ * :::
  * 
  * @group layout
  *
