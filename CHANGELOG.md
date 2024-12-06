@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.3](https://github.com/fxss5201/expand-element/compare/v0.0.2...v0.0.3) (2024-12-06)
+
+
+### Features
+
+* add getScrollbarWidth ([caace74](https://github.com/fxss5201/expand-element/commit/caace743f085cc28e81b540407d14ea618f4f2e7))
+
 ## [0.0.2](https://github.com/fxss5201/expand-element/compare/v0.0.1...v0.0.2) (2024-12-06)
 
 
