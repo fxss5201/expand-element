@@ -8,4 +8,4 @@ type DirectionType: "horizontal" | "vertical";
 
 ## Defined in
 
-scroll/getScrollbarWidth.ts:1
+[scroll/getScrollbarWidth.ts:1](https://github.com/fxss5201/expand-element/blob/main/lib/scroll/getScrollbarWidth.ts#L1)
