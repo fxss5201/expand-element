@@ -11,4 +11,11 @@
 
 ## scroll
 
+- [getIsScroll](functions/getIsScroll.md)
+- [getIsScrollX](functions/getIsScrollX.md)
+- [getIsScrollY](functions/getIsScrollY.md)
 - [getScrollbarWidth](functions/getScrollbarWidth.md)
+
+## text
+
+- [getIsEllipsis](functions/getIsEllipsis.md)
