@@ -58,4 +58,4 @@ y: boolean;
 
 ## Defined in
 
-scroll/getIsScroll.ts:24
+[scroll/getIsScroll.ts:24](https://github.com/fxss5201/expand-element/blob/main/lib/scroll/getIsScroll.ts#L24)

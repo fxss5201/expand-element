@@ -4,8 +4,7 @@ layout: home
 
 hero:
   name: "expand-element"
-  text: "expand-element"
-  tagline: My great project tagline
+  tagline: "拓展浏览器中DOM、BOM的一些方法，以方便开发。"
   actions:
     - theme: brand
       text: 指南
@@ -19,7 +18,10 @@ features:
     details: getElementPadding / getElementMargin
     link: /api/globals.html#layout
   - title: scroll
-    details: getScrollbarWidth
+    details: getScrollbarWidth / getIsScroll / getIsScrollX / getIsScrollY getIsEllipsis
     link: /api/globals.html#scroll
+  - title: text
+    details: getIsEllipsis
+    link: /api/globals.html#text
 ---
 

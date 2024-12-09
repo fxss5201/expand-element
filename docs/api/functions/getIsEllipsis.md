@@ -38,4 +38,4 @@ function getIsEllipsis(el: HTMLElement): boolean
 
 ## Defined in
 
-text/getIsEllipsis.ts:30
+[text/getIsEllipsis.ts:30](https://github.com/fxss5201/expand-element/blob/main/lib/text/getIsEllipsis.ts#L30)

@@ -38,4 +38,4 @@ function getIsScrollY(el: HTMLElement): boolean
 
 ## Defined in
 
-scroll/getIsScroll.ts:83
+[scroll/getIsScroll.ts:83](https://github.com/fxss5201/expand-element/blob/main/lib/scroll/getIsScroll.ts#L83)

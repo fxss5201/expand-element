@@ -7,7 +7,11 @@
   "keywords": [
     "getElementPadding",
     "getElementMargin",
-    "getScrollbarWidth"
+    "getScrollbarWidth",
+    "getIsScroll",
+    "getIsScrollX",
+    "getIsScrollY",
+    "getIsEllipsis"
   ],
   "description": "Expand element",
   "author": "fxss5201",

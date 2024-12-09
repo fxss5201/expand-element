@@ -1,6 +1,8 @@
 # expand-element
 
-拓展浏览器中DOM、BOM的一些方法，以方便开发。
+[![npm](https://img.shields.io/npm/v/expand-element)](https://www.npmjs.com/package/expand-element) [![Download](https://img.shields.io/npm/dm/expand-element)](https://www.npmjs.com/package/expand-element)
+
+拓展浏览器中DOM、BOM的一些方法，以方便开发，部分方法参考 `element-plus` 。
 
 ## 安装
 
