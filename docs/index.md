@@ -18,7 +18,7 @@ features:
     details: getElementPadding / getElementMargin
     link: /api/globals.html#layout
   - title: scroll
-    details: getScrollbarWidth / getIsScroll / getIsScrollX / getIsScrollY getIsEllipsis
+    details: getScrollbarWidth / getIsScroll / getIsScrollX / getIsScrollY
     link: /api/globals.html#scroll
   - title: text
     details: getIsEllipsis
