@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.4](https://github.com/fxss5201/expand-element/compare/v0.0.3...v0.0.4) (2024-12-09)
+
+
+### Features
+
+* add getIsScroll/getIsScrollX/getIsScrollY/getIsEllipsis ([30a0fb5](https://github.com/fxss5201/expand-element/commit/30a0fb5b2cdfbbc844f2dd4310a2f17e9232f211))
+
 ## [0.0.3](https://github.com/fxss5201/expand-element/compare/v0.0.2...v0.0.3) (2024-12-06)
 
 
