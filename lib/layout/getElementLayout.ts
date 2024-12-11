@@ -1,3 +1,6 @@
+import { isClientFlag } from './../browser'
+import { isHTMLElement } from './../types'
+
 /**
  * **获取 Element 的内边距 padding**
  * 
@@ -18,10 +21,23 @@
  * @group layout
  *
  * @param el 要获取内边距的元素。
- * @returns 包含元素四个方向内边距的对象，包含 `left`, `right`, `top`, `bottom` 属性，值为像素值。
+ * @returns 包含元素四个方向内边距的对象，包含 `left`, `right`, `top`, `bottom` 属性，值为像素值，非浏览器环境时，返回 `{ left: 0, right: 0, top: 0, bottom: 0 }`。
  * 
  */
 export function getElementPadding (el: HTMLElement) {
+  if (!isClientFlag()) {
+    return {
+      left: 0,
+      right: 0,
+      top: 0,
+      bottom: 0
+    }
+  }
+
+  if (!isHTMLElement(el)) {
+    throw new Error('The el is not a HTMLElement')
+  }
+
   const style = window.getComputedStyle(el, null)
   const left = Number.parseInt(style.paddingLeft, 10) || 0
   const right = Number.parseInt(style.paddingRight, 10) || 0
@@ -55,10 +71,23 @@ export function getElementPadding (el: HTMLElement) {
  * @group layout
  *
  * @param el 要获取外边距的元素。
- * @returns 包含元素四个方向外边距的对象，包含 `left`, `right`, `top`, `bottom` 属性，值为像素值。
+ * @returns 包含元素四个方向外边距的对象，包含 `left`, `right`, `top`, `bottom` 属性，值为像素值，非浏览器环境时，返回 `{ left: 0, right: 0, top: 0, bottom: 0 }`。
  * 
  */
 export function getElementMargin (el: HTMLElement) {
+  if (!isClientFlag()) {
+    return {
+      left: 0,
+      right: 0,
+      top: 0,
+      bottom: 0
+    }
+  }
+
+  if (!isHTMLElement(el)) {
+    throw new Error('The el is not a HTMLElement')
+  }
+
   const style = window.getComputedStyle(el, null)
   const left = Number.parseInt(style.marginLeft, 10) || 0
   const right = Number.parseInt(style.marginRight, 10) || 0

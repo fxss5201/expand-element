@@ -34,8 +34,8 @@ function getIsScrollY(el: HTMLElement): boolean
 
 `boolean`
 
-元素内容 纵向 是否超出，值为布尔值。
+元素内容 纵向 是否超出，值为布尔值，非浏览器环境时，返回 `false`。
 
 ## Defined in
 
-[scroll/getIsScroll.ts:83](https://github.com/fxss5201/expand-element/blob/main/lib/scroll/getIsScroll.ts#L83)
+[scroll/getIsScroll.ts:103](https://github.com/fxss5201/expand-element/blob/main/lib/scroll/getIsScroll.ts#L103)

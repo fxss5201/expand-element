@@ -1,3 +1,6 @@
+import { isClientFlag } from './../browser'
+import { isHTMLElement } from './../types'
+
 export type DirectionType = 'horizontal' | 'vertical'
 
 /**
@@ -22,10 +25,20 @@ export type DirectionType = 'horizontal' | 'vertical'
  * @param direction 滚动条方向，可选值为 `horizontal` 和 `vertical`，默认为 `horizontal`，当获取在 css 中通过 `::-webkit-scrollbar` 全局设置时，只需要传 `direction` 参数即可。
  * @param el 要获取滚动条宽度的元素，默认为 `document.body`，当获取在 css 中 `scrollbar-width: thin;` 或者通过 `::-webkit-scrollbar` 局部设置时需要传入 。
  * @param css 是否是在 css 中通过 `::-webkit-scrollbar` 局部设置滚动条宽度，默认为 `false`，此处暂时会直接在传入的 el 上强制出现滚动条，计算宽度，再还原，有可能出现抖动现象。
- * @returns 滚动条宽度，单位为像素。
+ * @returns 滚动条宽度，单位为像素，非浏览器环境时，返回 17，单位为像素。
  * 
  */
 export function getScrollbarWidth (direction: DirectionType = 'horizontal', el?: HTMLElement, css: boolean = false): number {
+  if (!isClientFlag()) return 17
+
+  if (!el && css) {
+    throw new Error('The el parameter must be passed in when css is true')
+  }
+
+  if (el && !isHTMLElement(el)) {
+    throw new Error('The el is not a HTMLElement')
+  }
+
   let scrollbarWidthNumber = 0
   let parentEl = document.body
   let scrollbarWidth = 'auto'

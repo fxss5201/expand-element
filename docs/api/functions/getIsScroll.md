@@ -42,20 +42,20 @@ function getIsScroll(el: HTMLElement): {
 }
 ```
 
-包含元素是否超出的对象，包含 `x` 和 `y` 属性，值为布尔值。
+包含元素是否超出的对象，包含 `x` 和 `y` 属性，值为布尔值，非浏览器环境时，返回 `{ x: false, y: false }`。
 
 ### x
 
 ```ts
-x: boolean;
+x: boolean = false;
 ```
 
 ### y
 
 ```ts
-y: boolean;
+y: boolean = false;
 ```
 
 ## Defined in
 
-[scroll/getIsScroll.ts:24](https://github.com/fxss5201/expand-element/blob/main/lib/scroll/getIsScroll.ts#L24)
+[scroll/getIsScroll.ts:27](https://github.com/fxss5201/expand-element/blob/main/lib/scroll/getIsScroll.ts#L27)

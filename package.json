@@ -63,5 +63,8 @@
     "vitepress": "^1.5.0",
     "vue": "^3.5.13",
     "vue-tsc": "^2.1.10"
+  },
+  "dependencies": {
+    "@vue/shared": "^3.5.13"
   }
 }

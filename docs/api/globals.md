@@ -4,6 +4,12 @@
 
 - [DirectionType](type-aliases/DirectionType.md)
 
+## Functions
+
+- [isClientFlag](functions/isClientFlag.md)
+- [isHTMLElement](functions/isHTMLElement.md)
+- [isStringNumber](functions/isStringNumber.md)
+
 ## layout
 
 - [getElementMargin](functions/getElementMargin.md)

@@ -49,8 +49,8 @@ function getScrollbarWidth(
 
 `number`
 
-滚动条宽度，单位为像素。
+滚动条宽度，单位为像素，非浏览器环境时，返回 17，单位为像素。
 
 ## Defined in
 
-[scroll/getScrollbarWidth.ts:28](https://github.com/fxss5201/expand-element/blob/main/lib/scroll/getScrollbarWidth.ts#L28)
+[scroll/getScrollbarWidth.ts:31](https://github.com/fxss5201/expand-element/blob/main/lib/scroll/getScrollbarWidth.ts#L31)

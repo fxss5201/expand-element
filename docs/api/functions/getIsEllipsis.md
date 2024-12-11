@@ -34,8 +34,8 @@ function getIsEllipsis(el: HTMLElement): boolean
 
 `boolean`
 
-元素内容是否有显示...，值为布尔值。
+元素内容是否有显示...，值为布尔值，非浏览器环境时，返回 `false`。
 
 ## Defined in
 
-[text/getIsEllipsis.ts:30](https://github.com/fxss5201/expand-element/blob/main/lib/text/getIsEllipsis.ts#L30)
+[text/getIsEllipsis.ts:32](https://github.com/fxss5201/expand-element/blob/main/lib/text/getIsEllipsis.ts#L32)
