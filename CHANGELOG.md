@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.5](https://github.com/fxss5201/expand-element/compare/v0.0.4...v0.0.5) (2024-12-11)
+
+
+### Features
+
+* add base function ([654b7ba](https://github.com/fxss5201/expand-element/commit/654b7baadd41336951740f59a1d2a9a5946da494))
+
 ## [0.0.4](https://github.com/fxss5201/expand-element/compare/v0.0.3...v0.0.4) (2024-12-09)
 
 
